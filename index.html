@@ -1,65 +1,124 @@
 <!DOCTYPE html>
 <html data-theme="light" lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
-<link rel="stylesheet" href="./style.css">
-    <title>E-Ticket</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./style.css">
+  <title>E-Ticket</title>
 </head>
+
 <body>
-    <header class="max-w-7xl mx-auto">
-        <!-- navigation bar -->
-        <nav>
-            <div class="navbar bg-base-100">
-                <div class="navbar-start">
-                  <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                    </div>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><a>Home</a></li>
-                        <li><a>About</a></li>
-                        <li><a>Destination</a></li>
-                        <li><a>Search</a></li>
-                    </ul>
-                  </div>
-                  <a class="btn btn-ghost text-xl">E-Ticket</a>
-                </div>
-                <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1">
-                    <li><a>Home</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Destination</a></li>
-                    <li><a>Search</a></li>
-                  </ul>
-                </div>
-                <div class="navbar-end">
-                  <a class="btn">Bus</a>
-                </div>
-              </div>
-        </nav>
-        <!-- Banner of Bus -->
-        <div class="my-5">
-            <div class="hero min-h-[550px] rounded-3xl" style="background-image: url(./images/banner.png);">
-                <div class="hero-overlay bg-opacity-5 rounded-3xl"></div>
-                <div class="hero-content text-center text-neutral-content">
-                  <div class="">
-                    <h1 class="mb-7 text-5xl font-bold leading-relaxed ">End-to-End Travel with <br><span class="text-[#1DD100]"> GreenLine Paribahan</span></h1>
-                    <p class="mb-5 inter text-[18px]">Yes, you can run unit tests and view the results directly within the app. The <br>integrated testing features allow for a streamlined .</p>
-                    <button class="btn btn-primary text-black font-bold text-xl border-none bg-[#1DD100] min-w-[170px]">Buy Tickets</button>
-                  </div>
-                </div>
-              </div>
+  <header class="max-w-7xl mx-auto">
+    <!-- navigation bar -->
+    <nav>
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Destination</a></li>
+              <li><a>Search</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-xl">E-Ticket</a>
         </div>
-        
-    </header>
-    <main>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Destination</a></li>
+            <li><a>Search</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn">Bus</a>
+        </div>
+      </div>
+    </nav>
+    <!-- Banner of Bus -->
+    <div class="mt-5 ">
+      <div class="hero min-h-[550px] relative rounded-3xl" style="background-image: url(./images/banner.png);">
+        <div class="hero-overlay bg-opacity-5 rounded-3xl"></div>
+        <div class="hero-content text-center text-neutral-content">
+          <div class="">
+            <h1 class="mb-7 text-5xl font-bold leading-relaxed ">End-to-End Travel with <br><span
+                class="text-[#1DD100]"> GreenLine Paribahan</span></h1>
+            <p class="mb-5 inter text-[18px]">Yes, you can run unit tests and view the results directly within the app.
+              The <br>integrated testing features allow for a streamlined .</p>
+            <button class="btn btn-primary text-black font-bold text-xl border-none bg-[#1DD100] min-w-[170px]">Buy
+              Tickets</button>
+          </div>
+        </div>
+      </div>
+      <!-- bottom cards -->
+      <div class="flex gap-6 right-96 top-10 ">
+        <div
+          class="max-w-[308px] max-h-[138px] border-b-4 bg-white border-[#1DD100] rounded-3xl flex gap-4 items-center py-8 pl-8 pr-12">
+          <div><img src="./images/people.png" alt=""></div>
+          <div>
+            <h1 class="inter font-bold text-4xl text-black">500K+</h1>
+            <p class="inter font-normal text-[18px] text-[#03071299]">Registered users</p>
+          </div>
+        </div>
+        <div
+          class="max-w-[308px] max-h-[138px] border-b-4 bg-white border-[#1DD100] rounded-3xl flex gap-4 items-center py-8 pl-8 pr-10">
+          <div><img src="./images/ticket-cupon.png" alt=""></div>
+          <div>
+            <h1 class="inter font-bold text-4xl text-black">1.7 lacks</h1>
+            <p class="inter font-normal text-[18px] text-[#03071299]">Tickets sold</p>
+          </div>
+        </div>
+        <div
+          class="max-w-[308px] max-h-[138px] border-b-4 bg-white border-[#1DD100] rounded-3xl flex gap-4 items-center py-8 pl-8 pr-12">
+          <div><img src="./images/stoppage.png" alt=""></div>
+          <div>
+            <h1 class="inter font-bold text-4xl text-black">80K+</h1>
+            <p class="inter font-normal text-[18px] text-[#03071299]">Rental partners</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="max-w-7xl mx-auto mt-40">
+    <!-- Ticket Offer section -->
+    <section>
+      <div>
+        <h1 class=" text-center font-bold text-[40px] my-5">Best offers for you</h1>
+        <div>
+        <!-- Offer 1 -->
+        <div class="flex">
+          <div class="bg-[#FFBF0F] text-center">
+            <h1 class="inter font-extrabold text-[40px]">15% OFF</h1>
+            <p class="inter font-semibold text-xl">on your next purchase</p>
+            <p>use by January 2024</p>
+          </div>
+          <div><img class="bg-[#FFBF0F]" src="./images/cupon-devider.png" alt=""></div>
+          <div class="bg-[#FFBF0F] text-center">
+            <h1>NEW15</h1>
+            <p>Coupon Code</p>
+          </div>
+        </div>
+        <!-- Offer 2 -->
+        <div>
 
-    </main>
-    <footer>
+        </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
 
-    </footer>
+  </footer>
 </body>
+
 </html>
